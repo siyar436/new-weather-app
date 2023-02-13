@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "montseratt", sans-serif;
+}
+.app {
+  /* background-image: url("./assets/cold-bg.jpg"); */
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease-out;
+}
+.app.warm {
+  /* background-image: url(./assets/warm-bg.jpg); */
+}
+main {
+  min-height: 100vh;
+  padding-top: 100px;
+}
+.search-box {
+  width: 100%;
+}
+.search-box .search-bar {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 0px 0px 16px 16px;
+  margin-top: -25px;
+
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+  color: #313131;
+  font-size: 20px;
+  transition: 0.4s ease;
+}
+.search-box .search-bar:focus {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+.location-box .location {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+.location-box .date {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px rgba(50, 50, 70, 0.5);
+}
+.weather-box {
+  text-align: center;
+}
+.weather-box .temp {
+  position: relative;
+  display: inline-block;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+
+  padding: 15px 25px;
+  color: #fff;
+  font-size: 102px;
+  font-weight: 900;
+  text-shadow: rgba(50, 50, 70, 0.5);
+  text-align: center;
+  box-shadow: 3px 6 px rgba(0, 0, 0, 0.2);
+}
+.weather-box .weather {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
+}
+
+/* ---------------------------------- */
+.stretch-card > .card {
+  width: 100%;
+  min-width: 100%;
+}
+
+body {
+  background-color: #f9f9fa;
+}
+
+.flex {
+  -webkit-box-flex: 1;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+
+@media (max-width: 991.98px) {
+  .padding {
+    padding: 1.5rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .padding {
+    padding: 1rem;
+  }
+}
+
+.padding {
+  padding: 5rem;
+}
+
+.grid-margin,
+.purchace-popup > div {
+  margin-bottom: 25px;
+}
+
+.card {
+  border: 0;
+  border-radius: 2px;
+}
+
+.card-weather {
+  background: #e1ecff;
+  background-image: linear-gradient(
+    to left bottom,
+    #d6eef6,
+    #dff0fa,
+    #e7f3fc,
+    #eff6fe,
+    #f6f9ff
+  );
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card-weather .card-body:first-child {
+  background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1557323760/weather.svg)
+    no-repeat center;
+  background-size: cover;
+}
+
+.card .card-body {
+  padding: 1.88rem 1.81rem;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 1.25rem;
+}
+
+.card-weather .weather-date-location {
+  padding: 0 0 38px;
+}
+
+.h3,
+h3 {
+  font-size: 1.56rem;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.text-gray,
+.card-subtitle,
+.new-accounts ul.chats li.chat-persons a p.joined-date {
+  color: #969696;
+}
+
+p {
+  font-size: 13px;
+}
+
+.text-gray,
+.card-subtitle,
+.new-accounts ul.chats li.chat-persons a p.joined-date {
+  color: #969696;
+}
+
+.card-weather .weather-data {
+  padding: 0 0 4.75rem;
+}
+
+.mr-auto,
+.mx-auto {
+  margin-right: auto !important;
+}
+
+.display-3 {
+  font-size: 2.5rem;
+}
+
+.card-weather .card-body {
+  background: #ffffff;
+}
+
+.card-weather .weakly-weather {
+  background: #ffffff;
+  overflow-x: auto;
+}
+
+.card-weather .weakly-weather .weakly-weather-item {
+  flex: 0 0 14.28%;
+  border-right: 1px solid #f2f2f2;
+  padding: 1rem;
+  text-align: center;
+}
+
+.mb-0,
+.my-0 {
+  margin-bottom: 0 !important;
+}
+
+.card-weather .weakly-weather .weakly-weather-item i {
+  font-size: 1.2rem;
+}
